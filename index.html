@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="/style.css">
+    <title>Is your birthday lucky</title>
+</head>
+<body>
+
+    
+    <div class="container">
+  <header>
+      <h2> Is your birthday lucky? </h2>
+  </header>
+  </div>
+
+  <div class="container">
+   
+  <form class="form">
+    <div class="notice">
+        <span style="font-weight: bold;">*!Privacy Notice*!</span> We are not storing your data.
+     </div>
+    <h2>Enter your Birthdate and lucky number to continue....</h2>
+      <div class="input">
+          <label for="date"> Enter your birth date: </label>
+          <input type="date" id="date" placeholder="mm/dd/yyyy">
+     </div>
+     <div class="input">
+        <label for="lucky-number"> Enter your lucky number: </label>
+        <input type="number" id="lucky-number" min="1" max="99">
+   </div>
+   <div>
+   <button class="button" id="btn-submit"> check </button>
+   <button class="button" id="btn-reset"> reset </button>
+   </div>
+   <h3 class="output" id="output"></h3>
+   <div id="happy-output-img"><img src="images/happy.gif" width="300px" height="300vh"></div>
+   <div id="sad-output-img"><img src="images/sad.gif" width="300px" height="250vh"></div>
+</form>
+</div>
+
+<div class="break"></div>   
+
+
+<footer class="container footer">
+      <ul class="list-footer">
+        <li class="list-item" style="padding: 0 1.5rem 0 0;"><a class="list-link" href="https://github.com/mansipadgelwar"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+       <li class="list-item"><a class="list-link" href="https://mansi-padgelwar-portfolio.netlify.app/"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+       <li class="list-item"><a class="list-link" href="https://www.linkedin.com/in/mansi-padgelwar-1051a8188/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+       <li class="list-item"><a class="list-link" href="https://twitter.com/MansiPadgelwar"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>     
+    </ul>
+    <div>2021 | Jeet </div>
+</footer>
+  <script src="/index.js"></script>  
+</body>
+</html>
